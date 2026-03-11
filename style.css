@@ -160,3 +160,18 @@ padding:40px;
 border-radius:20px;
 
 }
+@media (max-width: 600px) {
+
+.buttons{
+flex-direction: column;
+align-items: center;
+}
+
+.btn,
+.btn-outline{
+width: 80%;
+text-align: center;
+margin:10px 0;
+}
+
+}
