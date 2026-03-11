@@ -1,0 +1,162 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#050812;
+color:white;
+overflow-x:hidden;
+}
+
+/* PARTICLES BACKGROUND */
+
+#particles-js{
+
+position:fixed;
+width:100%;
+height:100%;
+z-index:-1;
+
+}
+
+/* NAVBAR */
+
+.navbar{
+
+position:fixed;
+top:0;
+width:100%;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 40px;
+
+background:rgba(10,15,40,0.6);
+backdrop-filter:blur(10px);
+
+}
+
+/* HERO */
+
+.hero{
+
+height:100vh;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:90px;
+
+background:linear-gradient(90deg,#4d8cff,#8f5cff);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+.hero p{
+
+margin-top:10px;
+opacity:0.8;
+
+}
+
+/* BUTTONS */
+
+.buttons{
+
+margin-top:40px;
+
+}
+
+.btn{
+
+background:#4d8cff;
+padding:14px 30px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+margin:10px;
+
+}
+
+.btn-outline{
+
+border:1px solid #333;
+padding:14px 30px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+margin:10px;
+
+}
+
+/* CONTRACT */
+
+.contract-section{
+
+padding:80px 20px;
+text-align:center;
+
+}
+
+.contract-box{
+
+display:inline-flex;
+gap:20px;
+
+background:#111;
+padding:15px 25px;
+border-radius:10px;
+
+}
+
+.contract-box button{
+
+background:#8f5cff;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+color:white;
+
+}
+
+/* SECTIONS */
+
+section{
+
+padding:120px 20px;
+text-align:center;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+max-width:900px;
+margin:auto;
+
+}
+
+.card{
+
+background:rgba(255,255,255,0.05);
+padding:40px;
+border-radius:20px;
+
+}
